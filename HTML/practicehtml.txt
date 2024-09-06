@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+    <title>  My First HTML PAGE!<title>
+<body>
+This is where the contents of my first html page will live.  Hopefull I will learn to use some of the more interactive elements, such
+as audio controls and video controls.
+First name: <input type="text" name = "fname"><br>
+Last name: <input type="text" name = "lname"><br>
+There are many frameworks you can use to generate HTML.  These framesworks provide additional features.  
+Below are a partial list in no particular order.
+<div>
+    <ul>
+        <li> PHP </li>
+        <li> JAVA </li>
+        <li> ASP.Net MVC </li>
+    <ul>
+<div>
+<body>
+<html>
