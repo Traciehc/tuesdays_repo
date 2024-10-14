@@ -1,5 +1,18 @@
 <!DOCTYPE html>
+<style>
+    h1 {
+        color: blue;
+    }
+</style>
+
 <head>
+    <style>
+        div {
+            color: green
+        }
+
+        <p
+    </style>
 </head>
 <html>
 
