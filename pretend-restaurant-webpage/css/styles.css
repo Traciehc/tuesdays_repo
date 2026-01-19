@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d6bdbd;
+    color: #333;
+    line-height: 1.6;
+}
+body {
+    background-color: pink;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #8b0000;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+/* Menu Preview */
+.menu-preview {
+   
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+#menu h2 {
+    text-align: center;
+}
+#menu {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    background-color: #fafafa;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+#contact-info {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#contact-info address {
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+#contact-info img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* ----------------------------- */
+/* Responsive Design (Mobile First) */
+/* ----------------------------- */
+
+@media (min-width: 600px) {
+    .menu-preview {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .menu-item {
+        margin: 0;
+    }
+}
+
+@media (min-width: 800px) {
+    header nav ul {
+        gap: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 3rem;
+    }
+}
